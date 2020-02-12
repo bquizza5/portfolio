@@ -5,11 +5,16 @@ import Projects from './components/projects'
 import './App.css';
 import ReactGA from 'react-ga';
 
-function App() {
-
+const init = () => {
   const trackingId = "UA-158261004-1";
   ReactGA.initialize(trackingId);
-  ReactGA.pageview('/homepage');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
+
+
+function App() {
+
+init()
 
   return (
     <div className="App">
