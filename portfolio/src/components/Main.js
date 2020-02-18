@@ -10,7 +10,7 @@ const Main = () => {
         <div className='main'>
             <h1 style={{fontSize: 50}}>Blaine Blonquist</h1>
             <img className='mainLogo' src={logo}></img>
-            <h2>Web-Developer</h2>
+            <h2 className='typewriter'>Web-Developer</h2>
 
 
 
