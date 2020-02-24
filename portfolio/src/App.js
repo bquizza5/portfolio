@@ -20,7 +20,7 @@ init()
 
   return (
     <div className="App">
-      <NavBar />
+      {/* <NavBar /> */}
       <Main />
       <Projects />
     </div>
