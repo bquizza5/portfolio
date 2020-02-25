@@ -31,6 +31,10 @@ const Main = () => {
                     <Typing.Backspace delay={1000} count={8} />
                     <span>SQL</span>
                     <Typing.Backspace delay={1000} count={5} />
+                    <span>Python</span>
+                    <Typing.Backspace delay={1000} count={8} />
+                    <span>Django</span>
+                    <Typing.Backspace delay={1000} count={8} />
                 </Typing>
 
 
