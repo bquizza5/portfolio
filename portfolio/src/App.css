@@ -32,51 +32,15 @@
 }
 
 .main {
-  padding: 200px;
+  padding-top: 200px;
 }
 
 .mainLogo {
-  height: 250px;
+  max-height: 250px;
   pointer-events: none;
 }
 
-/* ****** */
-/* .typewriter{
-  width: 100px;
-  overflow: hidden; 
-  border-right: .15em solid orange; 
-  white-space: nowrap; 
-  margin: 0 auto; 
-  letter-spacing: .15em; 
-  animation: 
-    typing 6s steps(25) 1s 1 alternate both,
 
-    blink-caret 500ms steps(40) infinite normal;
-    
-}
-
-
-@keyframes typing {
-  0% {
-      content: "testing123"; }
-
-  50% { width: 10em;
-        
-      }
-  100% { width: 0 }
-}
-
-@keyframes deleting {
-  from {width: 10em}
-  to {width : 0}
-}
-
-
-@keyframes blink-caret {
-  from { border-color: transparent };
-  to { border-color: orange }
-} */
-/* ****** */
 
 @media (prefers-reduced-motion: no-preference) {
   .mainLogo {
@@ -111,12 +75,42 @@
   justify-content: space-between;
   text-align: left;
   width: 48%;
-  min-width: 400px;
+  /* min-width: 400px; */
   /* border: 1px blue solid; */
 }
 
 .projectImg {
+  height: auto;
+  width: auto;
   padding: 15px
+}
+
+/* mobile */
+@media (max-width: 1280px){
+  .projectList {
+    flex-direction: column;
+  }
+  .project {
+    width: 100%;
+  }
+  .projectImg {
+    height: 200px;
+    width: 250px;
+  }
+  
+}
+
+@media (max-width: 700px){
+  
+  .project {
+    flex-direction: column;
+  }
+  .projectImg {
+    height: auto;
+    width: 100%;
+
+  }
+  
 }
 
 
