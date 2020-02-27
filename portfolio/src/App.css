@@ -104,10 +104,12 @@
   
   .project {
     flex-direction: column;
+    padding-bottom: 15px;
   }
   .projectImg {
     height: auto;
     width: 100%;
+    padding: 0px
 
   }
   
