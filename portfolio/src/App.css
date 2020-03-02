@@ -101,7 +101,10 @@
 }
 
 @media (max-width: 700px){
-  
+  .main {
+    padding-top: 100px;
+  }
+
   .project {
     flex-direction: column;
     padding-bottom: 15px;
