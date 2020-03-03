@@ -118,4 +118,12 @@
   
 }
 
+a {
+  color: #d3dfea;
+}
+
+a::after {
+  color: #d3dfea
+}
+
 

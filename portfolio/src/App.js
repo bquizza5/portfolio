@@ -2,6 +2,7 @@ import React from 'react';
 import Main from './components/Main'
 import NavBar from './components/NavBar'
 import Projects from './components/projects'
+import Footer from './components/Footer'
 import './App.css';
 import ReactGA from 'react-ga';
 
@@ -23,6 +24,7 @@ init()
       {/* <NavBar /> */}
       <Main />
       <Projects />
+      <Footer />
     </div>
   );
 }
