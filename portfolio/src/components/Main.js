@@ -8,6 +8,7 @@ const Main = () => {
 
 
     return (
+        <div className="main-container">
         <div className='main'>
             <h1 style={{ fontSize: 50 }}>Blaine Blonquist</h1>
             <img className='mainLogo' src={logo}></img>
@@ -48,6 +49,7 @@ const Main = () => {
 
 
 
+        </div>
         </div>
     )
 }

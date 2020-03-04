@@ -31,9 +31,13 @@
   
 }
 
-.main {
-  padding-top: 200px;
+.main-container {
+  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .mainLogo {
   max-height: 250px;
@@ -101,9 +105,6 @@
 }
 
 @media (max-width: 700px){
-  .main {
-    padding-top: 100px;
-  }
 
   .project {
     flex-direction: column;
