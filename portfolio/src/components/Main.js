@@ -13,8 +13,9 @@ const Main = (props) => {
         <div className='main'>
             <h1 style={{ fontSize: 50 }}>Blaine Blonquist</h1>
             <img className='mainLogo' src={logo}></img>
-            <h2 className='typewriter'>
-                <Typing startDelay={0} speed={100} loop={true}>
+            <h2 style={{height: 15}}>
+                
+                <Typing startDelay={1000} speed={100} loop={true}>
                     <span>React</span>
                     <Typing.Backspace delay={1000} count={7} />
                     <span>Redux</span>

@@ -33,9 +33,11 @@
 
 .main-container {
   min-height:100vh;
+  visibility: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: fadeIn 2s .5s forwards;
 }
 
 
@@ -148,3 +150,9 @@ button:hover {
   color: black
 }
 
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  5% {visibility: visible;}
+  100% {opacity: 1; visibility: visible;}
+} 
