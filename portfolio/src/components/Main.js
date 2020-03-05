@@ -3,7 +3,8 @@ import logo from '../images/transparentLogo.png'
 import Typing from 'react-typing-animation'
 import Typlical from "react-typical"
 
-const Main = () => {
+
+const Main = (props) => {
 
 
 
@@ -48,7 +49,7 @@ const Main = () => {
             </h2>
 
 
-
+        <button onClick={() => {props.goToAnchor("projects")}}>View projects &#8681;</button>
         </div>
         </div>
     )

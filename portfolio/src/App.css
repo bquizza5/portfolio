@@ -127,4 +127,21 @@ a::after {
   color: #d3dfea
 }
 
+button {
+  outline : 0;
+  -moz-outline : 0;
+  font-size: 14px;
+  margin-top: 50px;
+  border-radius: 10px;
+  border-color: #d3dfea;
+  background-color: black;
+  color: #d3dfea;
+
+}
+
+button:hover {
+  border-color: black;
+  background-color: #d3dfea;
+  color: black
+}
 
