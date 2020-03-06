@@ -112,6 +112,7 @@
   .project {
     flex-direction: column;
     padding-bottom: 15px;
+    width: 95%
   }
   .projectImg {
     max-width: 300px;
