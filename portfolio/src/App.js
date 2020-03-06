@@ -3,6 +3,7 @@ import Main from './components/Main'
 import NavBar from './components/NavBar'
 import Projects from './components/projects'
 import Footer from './components/Footer'
+import AboutMe from './components/AboutMe'
 import './App.css';
 import ReactGA from 'react-ga';
 import ScrollableAnchor, {goToAnchor, configureAnchors} from 'react-scrollable-anchor'
@@ -25,6 +26,7 @@ function App() {
     <div className="App">
       {/* <NavBar /> */}
       <Main goToAnchor={goToAnchor} />
+      <AboutMe />
       <ScrollableAnchor id={'projects'}>
           <div></div>
       </ScrollableAnchor>

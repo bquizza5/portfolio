@@ -34,7 +34,7 @@ const Projects = () => {
                       functionality and I assisted in designing the database.
                     </p>
                     <p>Django | 0auth2 | React | React-Router | Axios</p>
-                    <div>Repo - Deployment</div>
+                    <a href={"https://github.com/orgs/team-pitch-black/dashboard"}>Repo</a> - <a href={"https://pitch-black-mud.netlify.com/"}>Deployment</a>
                     </div>
                 </div>
                 <div className='project'>
@@ -47,33 +47,20 @@ const Projects = () => {
                     controllers, services, and models for our back-end Spring server.
                     </p>
                     <p>Java Spring | 0auth2 | Heroku</p>
-                    <div>Repo</div>
+                    <a href={"https://github.com/Build-Week-Water-My-Plant/Back-End"}>Repo</a> - <a href={"https://github.com/Build-Week-Water-My-Plant/Back-End"}>Deployment</a>
                     </div>
                 </div>
                 <div className='project'>
                     <img className='projectImg' src={placeholder}></img>
                     <div>
-                    <h2>project 1</h2>
+                    <h2>Receipt Tracker</h2>
                     <p>
-                        description: the project description the project description
-                         the project description the project description the project
-                          description the project description
+                        Receipt Tracker is a simple web app that helps you keep track of 
+                        your receipts. I was a key contributer in our implementation of redux 
+                        and I developed the search functionality. 
                     </p>
-                    <p>Technologies</p>
-                    <div>links</div>
-                    </div>
-                </div>
-                <div className='project'>
-                    <img className='projectImg' src={placeholder}></img>
-                    <div>
-                    <h2>project 1</h2>
-                    <p>
-                        description: the project description the project description
-                         the project description the project description the project
-                          description the project description
-                    </p>
-                    <p>Technologies</p>
-                    <div>links</div>
+                    <p>React | redux | axios | semantic UI</p>
+                    <a href={"https://github.com/build-week-ft-receipt-tracking-aug2019/Front-End"}>Repo</a> - <a href={"https://elegant-joliot-ca2384.netlify.com/"}>Deployment</a>
                     </div>
                 </div>
 

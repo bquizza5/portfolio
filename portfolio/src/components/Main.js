@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../images/transparentLogo.png'
 import Typing from 'react-typing-animation'
-import Typlical from "react-typical"
+
 
 
 const Main = (props) => {
@@ -39,13 +39,6 @@ const Main = (props) => {
                     <span>Django</span>
                     <Typing.Backspace delay={1000} count={8} />
                 </Typing>
-
-
-                {/* <Typlical loop={Infinity} wrapper='b' steps={[
-                    'web developer', 2000,
-                    'mobile developer', 2000,
-                    'cool dude', 2000
-                ]} /> */}
 
             </h2>
 
