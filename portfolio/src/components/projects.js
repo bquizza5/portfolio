@@ -3,6 +3,7 @@ import axios from 'axios'
 import placeholder from '../images/placeholder.png'
 import pitchBlack from '../images/pitchBlack.png'
 import waterMyPlants from '../images/watermyplants.png'
+import receiptTracker from '../images/receiptTracker.png'
 
 const Projects = () => {
     const [projects, setProjects] = useState()
@@ -51,7 +52,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='project'>
-                    <img className='projectImg' src={placeholder}></img>
+                    <img className='projectImg' src={receiptTracker}></img>
                     <div>
                     <h2>Receipt Tracker</h2>
                     <p>
