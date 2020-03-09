@@ -48,7 +48,7 @@ const Projects = () => {
                     controllers, services, and models for our back-end Spring server.
                     </p>
                     <p>Java Spring | 0auth2 | Heroku</p>
-                    <a href={"https://github.com/Build-Week-Water-My-Plant/Back-End"}>Repo</a> - <a href={"https://github.com/Build-Week-Water-My-Plant/Back-End"}>Deployment</a>
+                    <a href={"https://github.com/Build-Week-Water-My-Plant/Back-End"}>Repo</a> - <a href={"https://watermyplantsapp.now.sh"}>Deployment</a>
                     </div>
                 </div>
                 <div className='project'>

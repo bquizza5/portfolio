@@ -42,8 +42,8 @@ const Main = (props) => {
 
                 </h2>
                 <div style={{ display: "flex", justifyContent: 'space-between', width: 170, margin: 'auto'}}>
-                    <button onClick={() => { props.goToAnchor("aboutMe") }}>about me</button>
-                    <button onClick={() => { props.goToAnchor("projects") }}>projects</button>
+                    <button style={{width: 80}} onClick={() => { props.goToAnchor("aboutMe") }}>about me</button>
+                    <button style={{width: 80}} onClick={() => { props.goToAnchor("projects") }}>projects</button>
                 </div>
             </div>
         </div>
