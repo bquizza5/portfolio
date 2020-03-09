@@ -41,7 +41,7 @@ const Main = (props) => {
                     </Typing>
 
                 </h2>
-                <div style={{ display: "flex", justifyContent: 'space-between', width: 170, margin: 'auto'}}>
+                <div style={{ display: "flex", justifyContent: 'space-between', width: 180, margin: 'auto'}}>
                     <button style={{width: 85}} onClick={() => { props.goToAnchor("aboutMe") }}>about me</button>
                     <button style={{width: 85}} onClick={() => { props.goToAnchor("projects") }}>projects</button>
                 </div>
