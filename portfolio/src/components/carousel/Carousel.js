@@ -39,7 +39,7 @@ function ControlledCarousel() {
                     />
 
                     <Carousel.Caption>
-                        <p>Having been born and raised in Utah, I have grown to love the outdoors. I enjoy skiing, snowboarding, camping, hiking, backpacking, rock-climbing (mostly bouldering), and many other outdoor activities.</p>
+                        <p>Having spent most of my life in Utah, I have grown to love the outdoors. I enjoy skiing, snowboarding, camping, hiking, backpacking, rock-climbing (mostly bouldering), and many other outdoor activities.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
